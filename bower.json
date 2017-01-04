@@ -1,0 +1,13 @@
+{
+	"name": "bricksjs_injector",
+	"main": [
+		"dist/Injector.js"
+	],
+	"moduleType": [
+		"amd"
+	],
+	"authors": [
+		"Artur Sh. Mamedbekov <Artur-Mamedbekov@yandex.ru>"
+	],
+	"license": "GNU GPL v3.0"
+}

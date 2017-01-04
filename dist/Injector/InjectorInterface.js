@@ -1,0 +1,1 @@
+define("BricksJS/Injector/Injector/InjectorInterface",["require"],function(n){function e(){}return e.prototype.inject=function(n){},e});

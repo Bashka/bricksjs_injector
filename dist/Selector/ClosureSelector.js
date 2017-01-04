@@ -1,0 +1,1 @@
+define("BricksJS/Injector/Selector/ClosureSelector",["require","BricksJS/Injector/Selector/SelectorInterface"],function(e){function r(e){this.callback=e}var t=e("BricksJS/Injector/Selector/SelectorInterface");return r.prototype=new t,r.prototype.constructor=r,r.super=t.prototype,r.prototype.select=function(e){return this.callback(e)},r});

@@ -1,0 +1,1 @@
+define("BricksJS/Injector/Injector/ClosureInjector",["require","BricksJS/Injector/Injector/InjectorInterface"],function(t){function r(t){this.callback=t}var e=t("BricksJS/Injector/Injector/InjectorInterface");return r.prototype=new e,r.prototype.constructor=r,r.super=e.prototype,r.prototype.inject=function(t){this.callback(t)},r});

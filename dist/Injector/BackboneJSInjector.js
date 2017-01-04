@@ -1,0 +1,1 @@
+define("BricksJS/Injector/Injector/BackboneJSInjector",["require","BricksJS/Injector/Injector/InjectorInterface"],function(e){function t(e){this.view=e}var r=e("BricksJS/Injector/Injector/InjectorInterface");return t.prototype=new r,t.prototype.constructor=t,t.super=r.prototype,t.prototype.inject=function(e){new this.view({el:e})},t});
